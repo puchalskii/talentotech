@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Trivia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="tela-inicial">
+        <h1>Bem-vindo ao Jogo de Trivia!</h1>
+        <button id="iniciar" class="btn">Iniciar Jogo</button>
+    </div>
+
+    <div id="jogo" class="ocultar">
+        <h2 id="pergunta">Qual é a capital da França?</h2>
+        <div id="opcoes">
+            <button class="resposta btn">Paris</button>
+            <button class="resposta btn">Londres</button>
+            <button class="resposta btn">Berlim</button>
+            <button class="resposta btn">Madrid</button>
+        </div>
+        <p id="pontuacao">Pontos: 0</p>
+        <p id="tempo">Tempo restante: 30</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
